@@ -1,0 +1,5 @@
+infer:
+  model_name: "alphapose"
+  dataset: "coco"
+  model_config: "/workspace/lib/pose/alphapose/alphapose/configs/halpe_26/resnet/256x192_res50_lr1e-3_1x.yaml"
+  model_path: "/workspace/weights/halpe_26_fast_res50_256x192.pth"
