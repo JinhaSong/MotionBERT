@@ -1,0 +1,29 @@
+version: '2.3'
+
+services:
+  alphapose:
+    container_name: motionbert-dev
+    build:
+      context: ./
+      dockerfile: docker/dev/dockerfile
+    env_file:
+      - "docker/env.env"
+    runtime: nvidia
+    restart: always
+    ipc: "host"
+    volumes:
+      - ${PWD}:/workspace
+      - dataset:/dataset
+    ports:
+      - "10000:8000"
+      - "10022:22"
+    stdin_open: true
+    tty: true
+
+volumes:
+  dataset:
+    driver: local
+    driver_opts:
+      type: none
+      device: /media/ssd4/dataset
+      o: bind
