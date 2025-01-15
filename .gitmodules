@@ -1,0 +1,3 @@
+[submodule "lib/yolo/yolov7"]
+	path = lib/yolo/yolov7
+	url = https://github.com/jinhasong/yolov7
