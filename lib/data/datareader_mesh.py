@@ -1,8 +1,8 @@
 import numpy as np
 import os, sys
 import copy
-from lib.utils.tools import read_pkl
-from lib.utils.utils_data import split_clips
+from lib.util.tools import read_pkl
+from lib.util.utils_data import split_clips
 
 class DataReaderMesh(object):
     def __init__(self, n_frames, sample_stride, data_stride_train, data_stride_test, read_confidence=True, dt_root = 'data/mesh', dt_file = 'pw3d_det.pkl', res=[1920, 1920]):

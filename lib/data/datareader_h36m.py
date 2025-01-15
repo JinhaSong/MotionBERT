@@ -4,8 +4,8 @@ import numpy as np
 import os, sys
 import random
 import copy
-from lib.utils.tools import read_pkl
-from lib.utils.utils_data import split_clips
+from lib.util.tools import read_pkl
+from lib.util.utils_data import split_clips
 random.seed(0)
     
 class DataReaderH36M(object):

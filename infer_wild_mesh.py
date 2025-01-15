@@ -14,15 +14,15 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torch.utils.data import DataLoader
 
-from lib.utils.tools import *
-from lib.utils.learning import *
-from lib.utils.utils_data import flip_data
-from lib.utils.utils_mesh import flip_thetas_batch
+from lib.util.tools import *
+from lib.util.learning import *
+from lib.util.utils_data import flip_data
+from lib.util.utils_mesh import flip_thetas_batch
 from lib.data.dataset_wild import WildDetDataset
 # from lib.model.loss import *
 from lib.model.model_mesh import MeshRegressor
-from lib.utils.vismo import render_and_save, motion2video_mesh
-from lib.utils.utils_smpl import *
+from lib.util.vismo import render_and_save, motion2video_mesh
+from lib.util.utils_smpl import *
 from scipy.optimize import least_squares
 
 def parse_args():

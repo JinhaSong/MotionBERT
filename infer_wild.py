@@ -6,11 +6,11 @@ import imageio
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
-from lib.utils.tools import *
-from lib.utils.learning import *
-from lib.utils.utils_data import flip_data
+from lib.util.tools import *
+from lib.util.learning import *
+from lib.util.utils_data import flip_data
 from lib.data.dataset_wild import WildDetDataset
-from lib.utils.vismo import render_and_save
+from lib.util.vismo import render_and_save
 
 def parse_args():
     parser = argparse.ArgumentParser()

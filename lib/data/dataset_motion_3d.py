@@ -7,8 +7,8 @@ import random
 import pickle
 from torch.utils.data import Dataset, DataLoader
 from lib.data.augmentation import Augmenter3D
-from lib.utils.tools import read_pkl
-from lib.utils.utils_data import flip_data
+from lib.util.tools import read_pkl
+from lib.util.utils_data import flip_data
     
 class MotionDataset(Dataset):
     def __init__(self, args, subset_list, data_split): # data_split: train/test

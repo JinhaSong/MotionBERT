@@ -7,10 +7,10 @@ import random
 import pickle
 from torch.utils.data import Dataset, DataLoader
 from lib.data.augmentation import Augmenter3D
-from lib.utils.tools import read_pkl
-from lib.utils.utils_data import flip_data, crop_scale
-from lib.utils.utils_mesh import flip_thetas
-from lib.utils.utils_smpl import SMPL
+from lib.util.tools import read_pkl
+from lib.util.utils_data import flip_data, crop_scale
+from lib.util.utils_mesh import flip_thetas
+from lib.util.utils_smpl import SMPL
 from torch.utils.data import Dataset, DataLoader
 from lib.data.datareader_h36m import DataReaderH36M  
 from lib.data.datareader_mesh import DataReaderMesh  

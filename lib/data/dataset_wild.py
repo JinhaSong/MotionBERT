@@ -10,7 +10,7 @@ import json
 import pickle
 import math
 from torch.utils.data import Dataset, DataLoader
-from lib.utils.utils_data import crop_scale
+from lib.util.utils_data import crop_scale
 
 def halpe2h36m(x):
     '''

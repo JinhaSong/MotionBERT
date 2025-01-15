@@ -4,8 +4,8 @@ import os
 import random
 import copy
 from torch.utils.data import Dataset, DataLoader
-from lib.utils.utils_data import crop_scale, resample
-from lib.utils.tools import read_pkl
+from lib.util.utils_data import crop_scale, resample
+from lib.util.tools import read_pkl
     
 def get_action_names(file_path = "data/action/ntu_actions.txt"):
     f = open(file_path, "r")

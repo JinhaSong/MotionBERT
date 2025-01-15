@@ -6,7 +6,7 @@ import ipdb
 import torch
 import numpy as np
 sys.path.insert(0, os.getcwd())
-from lib.utils.utils_data import split_clips
+from lib.util.utils_data import split_clips
 from tqdm import tqdm
 
 fileName = open('data/AMASS/amass_joints_h36m_60.pkl','rb')

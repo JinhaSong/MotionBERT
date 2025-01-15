@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import ipdb
-from lib.utils.utils_mesh import batch_rodrigues
+from lib.util.utils_mesh import batch_rodrigues
 from lib.model.loss import *
 
 class MeshLoss(nn.Module):

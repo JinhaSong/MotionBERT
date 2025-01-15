@@ -2,7 +2,7 @@ import torch
 import numpy as np
 from torch.nn import functional as F
 import copy
-# from lib.utils.rotation_conversions import axis_angle_to_matrix, matrix_to_rotation_6d
+# from lib.util.rotation_conversions import axis_angle_to_matrix, matrix_to_rotation_6d
 
 
 def batch_rodrigues(axisang):

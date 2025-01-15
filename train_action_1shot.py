@@ -16,8 +16,8 @@ import torch.optim as optim
 from torch.optim.lr_scheduler import StepLR
 from torch.utils.data import DataLoader
 
-from lib.utils.tools import *
-from lib.utils.learning import *
+from lib.util.tools import *
+from lib.util.learning import *
 from lib.model.loss import *
 from lib.data.dataset_action import NTURGBD, NTURGBD1Shot
 from lib.model.model_action import ActionNet

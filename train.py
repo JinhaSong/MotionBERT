@@ -17,9 +17,9 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torch.utils.data import DataLoader
 
-from lib.utils.tools import *
-from lib.utils.learning import *
-from lib.utils.utils_data import flip_data
+from lib.util.tools import *
+from lib.util.learning import *
+from lib.util.utils_data import flip_data
 from lib.data.dataset_motion_2d import PoseTrackDataset2D, InstaVDataset2D
 from lib.data.dataset_motion_3d import MotionDataset3D
 from lib.data.augmentation import Augmenter2D

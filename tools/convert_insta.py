@@ -10,7 +10,7 @@ import json
 import glob
 import numpy as np
 sys.path.insert(0, os.getcwd())
-from lib.utils.utils_data import crop_scale
+from lib.util.utils_data import crop_scale
 
 
 def parse_args():

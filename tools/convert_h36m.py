@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 import random
 sys.path.insert(0, os.getcwd())
-from lib.utils.tools import read_pkl
+from lib.util.tools import read_pkl
 from lib.data.datareader_h36m import DataReaderH36M
 from tqdm import tqdm
 

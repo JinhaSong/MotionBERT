@@ -9,7 +9,7 @@ import random
 import copy
 import json
 from collections import defaultdict
-from lib.utils.utils_data import crop_scale, flip_data, resample, split_clips
+from lib.util.utils_data import crop_scale, flip_data, resample, split_clips
 
 def posetrack2h36m(x):
     '''
